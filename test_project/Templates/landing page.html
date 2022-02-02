@@ -1,0 +1,100 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Landing Page</title>
+</head>
+<body>
+<strong>
+  API:
+</strong>
+<ul>
+  <li>
+    <strong>
+      <u>Transaction Details</u>
+    </strong>
+    <ul>
+      <li>
+        API URL - <strong>http://127.0.0.1:8000/transaction?</strong>
+      </li>
+      <ul>
+        <li>
+          <i>
+            URL Parameter: <strong>transaction_id</strong>
+               -->
+            Parameter Value:  <strong>Any Integer Number</strong>
+               -->
+            Requirement:  <strong>Mandatory</strong>
+          </i>
+        </li>
+      </ul>
+    </ul>
+  </li>
+  <br>
+  <li>
+    <strong>
+      <u>Summary by SKU Name</u>
+    </strong>
+    <ul>
+      <li>
+        API URL - <strong>http://127.0.0.1:8000/transaction_summary_bySKU?</strong>
+      </li>
+      <ul>
+        <li>
+          <i>
+            URL Parameter: <strong>days</strong>
+               -->
+            Parameter Value:  <strong>Any Integer Number</strong>
+               -->
+            Requirement:  <strong>Not Mandatory</strong>
+          </i>
+        </li>
+        <li>
+          <i>
+            URL Parameter: <strong>summary_name</strong>
+               -->
+            Parameter Value:  <strong>name</strong>
+               -->
+            Requirement:  <strong>Mandatory</strong>
+          </i>
+        </li>
+      </ul>
+    </ul>
+  </li>
+  <br>
+  <li>
+    <strong>
+      <u>Summary by SKU category</u>
+    </strong>
+    <ul>
+      <li>
+        API URL - <strong>http://127.0.0.1:8000/transaction_summary_byCategory?</strong>
+      </li>
+      <ul>
+        <li>
+          <i>
+            URL Parameter: <strong>days</strong>
+               -->
+            Parameter Value:  <strong>Any Integer Number</strong>
+               -->
+            Requirement:  <strong>Not Mandatory</strong>
+          </i>
+        </li>
+        <li>
+          <i>
+            URL Parameter: <strong>summary_category</strong>
+               -->
+            Parameter Value:  <strong>category</strong>
+               -->
+            Requirement:  <strong>Mandatory</strong>
+          </i>
+        </li>
+      </ul>
+    </ul>
+  </li>
+</ul>
+<br>
+</body>
+</html>
